@@ -1,0 +1,46 @@
+#manual-table{
+	display: none;
+}
+.table-content thead{
+	background-color: #0072aa;
+    color: #fff;
+}
+
+.table-content{
+	background-color: #ddd;
+}
+.table-content tbody{
+	background-color: #fff;
+}
+
+.table-content tbody th{
+	padding-left: 20px!important;
+}
+
+.table-content tbody tr{
+	/*border-bottom: 1px solid #ccc;*/
+	border: 1px solid #ccc;
+}
+
+.max_num{
+	color: orange;
+	font-weight: bold;
+}
+
+.remove_top_page{
+	font-size: 12px;
+}
+
+.report-files-table .ui-sortable:not(.ui-sortable-disabled) .ui-sortable-handle{
+	background-color: #fff;
+	cursor: move;
+}
+
+.autosave{
+	color: #13ae13;
+	font-style: italic;
+	font-size: 13px;
+	vertical-align: bottom;
+	margin-left: 10px;
+	display: none;
+}

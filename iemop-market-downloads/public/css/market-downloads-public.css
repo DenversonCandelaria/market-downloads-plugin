@@ -1,0 +1,82 @@
+#category-select{
+	padding-right: 50px;
+	width: auto;
+}
+.empty-notice{
+	font-size: 14px;
+}
+#market-data-loader{
+	display: none;
+	text-align: center;
+    margin: 40px;	
+}
+.market-data-dl-date,
+.market-data-dl-date1,
+.market-data-dl-date2{
+	float: left;
+	width: 100%!important;
+}
+#dl-all-btn-cont{
+	display: inline-block;
+    padding: 8px;
+}
+
+#md-date-filter{
+    width: auto;
+    max-width: 270px;
+}
+
+.linear-pagination ul{
+	list-style-type: none;
+	display: flex;
+}
+
+.linear-pagination ul li.active a{
+    background-color: none;
+    color: #0F3CDE!important;
+    font-family: "roboto-bold";
+    border-bottom: 2px solid #0F3CDE!important;
+}
+
+.linear-pagination .disabled .page-icon{
+	opacity: 0.5;
+}
+
+.linear-pagination .disabled a:hover{
+    border-bottom: none!important;
+}
+
+.market-reports-group-title,
+.page-title{
+	text-transform: uppercase;
+}
+
+.sort-reports{
+	width: 170px!important;
+	padding-right: 30px!important;
+}
+
+@media only screen and (max-width: 475px){
+	.inside-drop-content{
+		width: 100%;
+	}
+	#sort{
+		width: 100%!important;
+	}
+	#md-date-filter{
+		margin: 0;
+	}
+	#reports-filters #md-date-filter{
+	    width: 100%;
+   	 	max-width: 100%;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	.mr-select{
+		width: 100%!important; 
+	}
+	#md-date-filter{
+		max-width: 220px;
+	}
+}
